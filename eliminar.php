@@ -1,9 +1,6 @@
 <?php
 include("./inc/settings.php");
 validar();
-?>
-<?php
-print_r($_POST);
 
 $id=$_POST['colum1'];
 
@@ -25,6 +22,5 @@ if ( $conn->query($query)== TRUE){
     echo "Algo salio mal <a href='https://localhost/crud/crud.php'> clic aqui para volver al crud</a>" ;
 
 }
-
 
 ?>
